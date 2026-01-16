@@ -1,0 +1,51 @@
+ 1. Backend'i Çalıştırma:
+
+  # Backend klasörüne git
+  cd backend
+
+  # Bağımlılıkları yükle (eğer yüklenmediyse)
+  npm install
+
+  # Development modda çalıştır
+  npm run dev
+
+  Backend http://localhost:4000 adresinde çalışacak.
+
+  2. Frontend'i Çalıştırma:
+
+  Yeni bir terminal penceresi açın:
+
+  # Frontend klasörüne git
+  cd frontend
+
+  # Bağımlılıkları yükle (eğer yüklenmediyse)
+  npm install
+
+  # Development modda çalıştır
+  npm run dev
+
+  Frontend http://localhost:5173 adresinde çalışacak.
+
+  3. Uygulamayı Kullanma:
+
+  Browser'da http://localhost:5173 adresine giderek uygulamayı kullanabilirsiniz.
+
+  Önemli Notlar:
+
+  - .env dosyalarınız zaten mevcut ve yapılandırılmış
+  - Binance API anahtarlarınız .env dosyasında tanımlı
+  - Backend health check: http://localhost:4000/health
+  - WebSocket bağlantısı: ws://localhost:4000/ws
+
+  Alternatif Komutlar:
+
+  Production build için:
+  # Backend için
+  cd backend
+  npm run build
+  npm start
+
+  # Frontend için
+  cd frontend
+  npm run build
+  npm run preview

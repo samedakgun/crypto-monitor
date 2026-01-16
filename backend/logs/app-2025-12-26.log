@@ -1,0 +1,358 @@
+[2025-12-26T19:01:17.686Z] [INFO] 🚀 WebSocket server started on /ws
+[2025-12-26T19:01:17.689Z] [INFO] HTTP server listening on http://0.0.0.0:4000
+[2025-12-26T19:01:48.431Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:01:48.437Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:01:51.153Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:01:51.162Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-26T19:01:51.162Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-26T19:01:51.264Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-26T19:01:54.400Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-26T19:01:56.029Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.01 | Trades: 6
+[2025-12-26T19:02:02.022Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.12 | Trades: 21
+[2025-12-26T19:03:02.023Z] [INFO] 📊 Footprint calculated: 29 price levels | CVD: 1.25 | Trades: 434
+[2025-12-26T19:04:02.029Z] [INFO] 📊 Footprint calculated: 21 price levels | CVD: 6.49 | Trades: 558
+[2025-12-26T19:05:02.032Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.22 | Trades: 236
+[2025-12-26T19:06:02.045Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.24 | Trades: 449
+[2025-12-26T19:07:02.086Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 3.17 | Trades: 320
+[2025-12-26T19:08:02.013Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.39 | Trades: 533
+[2025-12-26T19:09:02.009Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.47 | Trades: 412
+[2025-12-26T19:09:48.899Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:09:48.900Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:09:48.900Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:09:48.996Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:09:48.998Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:09:51.984Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:09:51.991Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-26T19:09:51.992Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-26T19:09:52.094Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-26T19:09:55.009Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-26T19:09:56.000Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.04 | Trades: 12
+[2025-12-26T19:10:02.024Z] [INFO] 📊 Footprint calculated: 9 price levels | CVD: 0.10 | Trades: 59
+[2025-12-26T19:11:02.050Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.08 | Trades: 386
+[2025-12-26T19:11:07.395Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:11:07.395Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:11:07.395Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:11:07.397Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:11:07.401Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-26T19:11:07.401Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-26T19:11:07.502Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-26T19:11:10.456Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-26T19:11:12.002Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.05 | Trades: 4
+[2025-12-26T19:11:26.581Z] [INFO] 🚀 WebSocket server started on /ws
+[2025-12-26T19:12:11.372Z] [INFO] 🚀 WebSocket server started on /ws
+[2025-12-26T19:12:11.374Z] [INFO] HTTP server listening on http://0.0.0.0:4000
+[2025-12-26T19:12:12.196Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:12:12.205Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-26T19:12:12.206Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-26T19:12:12.308Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-26T19:12:15.368Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-26T19:12:16.013Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.00 | Trades: 1
+[2025-12-26T19:12:47.548Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:12:47.549Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:12:47.549Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:12:47.904Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:12:47.906Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:12:50.911Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:12:50.919Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-26T19:12:50.920Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-26T19:12:51.023Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-26T19:12:54.144Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-26T19:12:55.550Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:12:55.550Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:12:55.551Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:12:58.617Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:12:58.624Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-26T19:12:58.625Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-26T19:12:58.727Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-26T19:13:01.674Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-26T19:13:02.015Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.00 | Trades: 2
+[2025-12-26T19:14:02.033Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.89 | Trades: 161
+[2025-12-26T19:14:41.156Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-26T19:14:41.157Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:14:41.157Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:14:41.160Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-26T19:14:41.160Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-26T19:14:41.261Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2025-12-26T19:14:44.185Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2025-12-26T19:15:02.001Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.11 | Trades: 35
+[2025-12-26T19:15:20.707Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-26T19:15:20.707Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:15:20.707Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:15:20.708Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"15m"}]
+[2025-12-26T19:15:20.708Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 15m
+[2025-12-26T19:15:20.811Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_15m/btcusdt@depth20@100ms
+[2025-12-26T19:15:23.735Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_15m, btcusdt@depth20@100ms
+[2025-12-26T19:15:24.000Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.00 | Trades: 1
+[2025-12-26T19:18:38.515Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:18:38.516Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:18:38.516Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:18:38.517Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:18:38.519Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"15m"}]
+[2025-12-26T19:18:38.519Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 15m
+[2025-12-26T19:18:38.621Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_15m/btcusdt@depth20@100ms
+[2025-12-26T19:18:41.665Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_15m, btcusdt@depth20@100ms
+[2025-12-26T19:18:49.522Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:18:49.522Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:18:49.523Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:18:49.524Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:18:49.536Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"15m"}]
+[2025-12-26T19:18:49.537Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 15m
+[2025-12-26T19:18:49.637Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_15m/btcusdt@depth20@100ms
+[2025-12-26T19:18:52.609Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_15m, btcusdt@depth20@100ms
+[2025-12-26T19:18:54.016Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.00 | Trades: 2
+[2025-12-26T19:21:15.434Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-26T19:21:15.435Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:21:15.435Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:21:15.436Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1h"}]
+[2025-12-26T19:21:15.437Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1h
+[2025-12-26T19:21:15.538Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1h/btcusdt@depth20@100ms
+[2025-12-26T19:21:18.469Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1h, btcusdt@depth20@100ms
+[2025-12-26T19:21:19.993Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.23 | Trades: 3
+[2025-12-26T19:26:36.503Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-26T19:26:36.504Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:26:36.504Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:26:36.505Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-26T19:26:36.506Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-26T19:26:36.608Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-26T19:26:39.581Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-26T19:26:45.385Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-26T19:26:45.386Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:26:45.386Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:26:45.387Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-26T19:26:45.387Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-26T19:26:45.489Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2025-12-26T19:26:48.491Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2025-12-26T19:26:48.985Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-26T19:26:48.985Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:26:48.986Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:26:48.987Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-26T19:26:48.987Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-26T19:26:49.088Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-26T19:26:49.968Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-26T19:26:49.969Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:26:49.969Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:26:49.985Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-26T19:26:49.985Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-26T19:31:46.390Z] [INFO] 🚀 WebSocket server started on /ws
+[2025-12-26T19:31:46.392Z] [INFO] HTTP server listening on http://0.0.0.0:4000
+[2025-12-26T19:31:47.420Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:31:47.430Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-26T19:31:47.431Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-26T19:31:47.535Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-26T19:31:49.114Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:31:49.114Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:31:49.114Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:33:47.326Z] [INFO] 🚀 WebSocket server started on /ws
+[2025-12-26T19:33:47.329Z] [INFO] HTTP server listening on http://0.0.0.0:4000
+[2025-12-26T19:33:50.220Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:33:50.229Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-26T19:33:50.230Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-26T19:33:50.333Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2025-12-26T19:33:53.348Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2025-12-26T19:33:54.017Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.00 | Trades: 1
+[2025-12-26T19:34:44.996Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-26T19:34:44.997Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:34:44.998Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:34:45.000Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-26T19:34:45.000Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-26T19:34:45.101Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-26T19:34:48.158Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-26T19:34:53.728Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-26T19:34:53.728Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:34:53.728Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:34:53.730Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-26T19:34:53.730Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-26T19:34:53.831Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2025-12-26T19:34:56.866Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2025-12-26T19:35:02.018Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.03 | Trades: 21
+[2025-12-26T19:35:32.760Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:35:32.760Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:35:32.760Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:35:33.165Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:35:33.166Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:35:36.165Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:35:36.171Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-26T19:35:36.172Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-26T19:35:36.274Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-26T19:35:39.460Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-26T19:35:40.079Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.00 | Trades: 3
+[2025-12-26T19:36:02.031Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.31 | Trades: 72
+[2025-12-26T19:37:02.024Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.21 | Trades: 488
+[2025-12-26T19:37:21.143Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-26T19:37:21.143Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:37:21.143Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:37:21.144Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-26T19:37:21.144Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-26T19:37:21.246Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2025-12-26T19:37:24.322Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2025-12-26T19:37:26.031Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.05 | Trades: 4
+[2025-12-26T19:40:02.013Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.13 | Trades: 1116
+[2025-12-26T19:45:02.058Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.20 | Trades: 1651
+[2025-12-26T19:50:02.049Z] [INFO] 📊 Footprint calculated: 7 price levels | CVD: -1.68 | Trades: 3770
+[2025-12-26T19:53:21.921Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:53:21.922Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T19:53:21.922Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T19:53:22.129Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:53:22.131Z] [INFO] ❌ Client disconnected
+[2025-12-26T19:53:25.130Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T19:53:25.139Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-26T19:53:25.140Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-26T19:53:25.242Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-26T19:53:28.314Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-26T20:29:10.901Z] [INFO] ❌ Client disconnected
+[2025-12-26T20:29:10.903Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-26T20:29:10.903Z] [INFO] Closing Binance WebSocket connection
+[2025-12-26T20:29:11.057Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T20:29:11.085Z] [INFO] ❌ Client disconnected
+[2025-12-26T20:29:14.587Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-26T20:29:14.595Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-26T20:29:14.595Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-26T20:29:14.698Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-26T20:29:17.372Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-27T02:56:23.335Z] [INFO] ❌ Client disconnected
+[2025-12-27T02:56:23.335Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T02:56:23.335Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T02:56:23.346Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T02:56:23.357Z] [INFO] ❌ Client disconnected
+[2025-12-27T02:56:27.329Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T02:56:27.340Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T02:56:27.346Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-27T02:56:27.347Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-27T02:56:27.449Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-27T02:56:30.439Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-27T02:56:32.090Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.01 | Trades: 2
+[2025-12-27T02:56:45.334Z] [INFO] ❌ Client disconnected
+[2025-12-27T02:56:45.335Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T02:56:45.335Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T02:56:45.335Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T02:56:45.338Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-27T02:56:45.338Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-27T02:56:45.439Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-27T02:56:48.405Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-27T02:56:50.103Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.00 | Trades: 3
+[2025-12-27T02:57:02.068Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.04 | Trades: 96
+[2025-12-27T02:57:02.328Z] [INFO] ❌ Client disconnected
+[2025-12-27T02:57:02.328Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T02:57:02.329Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T02:57:02.330Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T02:57:02.334Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-27T02:57:02.334Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-27T02:57:02.435Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-27T02:57:05.338Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-27T02:58:02.054Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.12 | Trades: 112
+[2025-12-27T02:58:37.648Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-27T02:58:37.649Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T02:58:37.649Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T02:58:37.651Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-27T02:58:37.652Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-27T02:58:37.752Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2025-12-27T02:58:40.763Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2025-12-27T02:58:41.830Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-27T02:58:41.830Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T02:58:41.830Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T02:58:41.831Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"15m"}]
+[2025-12-27T02:58:41.831Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 15m
+[2025-12-27T02:58:41.932Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_15m/btcusdt@depth20@100ms
+[2025-12-27T02:58:44.964Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_15m, btcusdt@depth20@100ms
+[2025-12-27T02:58:46.050Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.00 | Trades: 5
+[2025-12-27T02:59:25.921Z] [INFO] ❌ Client disconnected
+[2025-12-27T02:59:25.921Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T02:59:25.921Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T02:59:25.925Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T02:59:25.928Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-27T02:59:25.928Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-27T02:59:26.029Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-27T02:59:29.019Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-27T02:59:41.268Z] [INFO] ❌ Client disconnected
+[2025-12-27T02:59:41.271Z] [INFO] ❌ Client disconnected
+[2025-12-27T02:59:41.271Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T02:59:41.271Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T02:59:41.374Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T02:59:41.381Z] [INFO] ❌ Client disconnected
+[2025-12-27T02:59:44.385Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T02:59:44.390Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-27T02:59:44.390Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-27T02:59:44.491Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-27T02:59:47.500Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-27T02:59:48.091Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.00 | Trades: 3
+[2025-12-27T02:59:58.628Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-27T02:59:58.628Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T02:59:58.628Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T02:59:58.629Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-27T02:59:58.630Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-27T02:59:58.731Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2025-12-27T03:00:01.765Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2025-12-27T03:00:02.120Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.00 | Trades: 2
+[2025-12-27T03:00:45.802Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T03:00:45.802Z] [INFO] ❌ Client disconnected
+[2025-12-27T03:00:45.803Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T03:00:45.803Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T03:00:45.804Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-27T03:00:45.804Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-27T03:00:45.906Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2025-12-27T03:00:48.934Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2025-12-27T03:00:56.900Z] [INFO] ❌ Client disconnected
+[2025-12-27T03:00:56.900Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T03:00:56.900Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T03:00:56.911Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T03:00:56.924Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-27T03:00:56.924Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-27T03:00:57.026Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2025-12-27T03:00:59.797Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2025-12-27T03:02:03.305Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-27T03:02:03.306Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T03:02:03.307Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T03:02:03.308Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2025-12-27T03:02:03.308Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2025-12-27T03:02:03.410Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2025-12-27T03:02:06.333Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2025-12-27T03:05:02.074Z] [INFO] 📊 Footprint calculated: 18 price levels | CVD: -1.71 | Trades: 640
+[2025-12-27T03:06:02.076Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.29 | Trades: 307
+[2025-12-27T03:07:02.126Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -2.09 | Trades: 307
+[2025-12-27T03:07:46.990Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-27T03:07:46.991Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T03:07:46.992Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T03:07:46.994Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-27T03:07:46.995Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-27T03:07:47.097Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2025-12-27T03:07:50.171Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2025-12-27T03:07:52.136Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.00 | Trades: 1
+[2025-12-27T03:07:56.405Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-27T03:07:56.406Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T03:07:56.406Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T03:07:56.406Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"15m"}]
+[2025-12-27T03:07:56.407Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 15m
+[2025-12-27T03:07:56.508Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_15m/btcusdt@depth20@100ms
+[2025-12-27T03:07:59.482Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_15m, btcusdt@depth20@100ms
+[2025-12-27T03:08:00.098Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: 0.08 | Trades: 3
+[2025-12-27T03:08:43.459Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2025-12-27T03:08:43.460Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T03:08:43.460Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T03:08:43.461Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-27T03:08:43.461Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-27T03:08:43.562Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2025-12-27T03:08:46.635Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2025-12-27T03:09:23.746Z] [INFO] ❌ Client disconnected
+[2025-12-27T03:09:23.747Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T03:09:23.747Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T03:09:23.749Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T03:09:23.760Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-27T03:09:23.760Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-27T03:09:23.863Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2025-12-27T03:09:26.777Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2025-12-27T03:09:28.152Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.02 | Trades: 3
+[2025-12-27T03:09:43.037Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T03:09:43.038Z] [INFO] ❌ Client disconnected
+[2025-12-27T03:09:43.038Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2025-12-27T03:09:43.038Z] [INFO] Closing Binance WebSocket connection
+[2025-12-27T03:09:43.041Z] [INFO] ❌ Client disconnected
+[2025-12-27T03:09:46.043Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T03:09:46.050Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2025-12-27T03:09:46.050Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2025-12-27T03:09:46.058Z] [INFO] ✅ Client connected to WebSocket
+[2025-12-27T03:09:46.152Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2025-12-27T03:09:49.157Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2025-12-27T03:09:50.103Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.01 | Trades: 1
+[2025-12-27T03:10:02.072Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.01 | Trades: 23
+[2025-12-27T03:15:02.088Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.16 | Trades: 1281
+[2025-12-27T03:20:02.075Z] [INFO] 📊 Footprint calculated: 1 price levels | CVD: -0.82 | Trades: 908

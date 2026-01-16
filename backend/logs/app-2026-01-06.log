@@ -1,0 +1,352 @@
+[2026-01-06T15:15:49.848Z] [INFO] 🚀 WebSocket server started on /ws
+[2026-01-06T15:15:49.851Z] [INFO] HTTP server listening on http://0.0.0.0:4000
+[2026-01-06T15:16:51.194Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T15:16:51.315Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T15:16:51.318Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T15:16:51.420Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T15:16:51.421Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T15:16:54.308Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T15:16:56.103Z] [INFO] 📊 Footprint calculated: 60 price levels | Delta: 0.43 | CVD: 0.43 | Trades: 78
+[2026-01-06T15:17:02.071Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: 0.02 | CVD: 0.45 | Trades: 63
+[2026-01-06T15:18:02.100Z] [INFO] 📊 Footprint calculated: 53 price levels | Delta: 1.03 | CVD: 1.48 | Trades: 2032
+[2026-01-06T15:19:02.080Z] [INFO] 📊 Footprint calculated: 118 price levels | Delta: -5.67 | CVD: -4.18 | Trades: 1325
+[2026-01-06T15:20:02.088Z] [INFO] 📊 Footprint calculated: 223 price levels | Delta: -0.24 | CVD: -4.42 | Trades: 1064
+[2026-01-06T15:21:02.098Z] [INFO] 📊 Footprint calculated: 154 price levels | Delta: -1.51 | CVD: -5.93 | Trades: 3249
+[2026-01-06T15:21:21.486Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2026-01-06T15:21:21.486Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T15:21:21.487Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T15:21:21.493Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2026-01-06T15:21:21.494Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2026-01-06T15:21:21.596Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T15:21:21.597Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2026-01-06T15:21:24.599Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_5m, btcusdt@depth20@100ms
+[2026-01-06T15:21:26.119Z] [INFO] 📊 Footprint calculated: 81 price levels | Delta: 1.30 | CVD: 1.30 | Trades: 120
+[2026-01-06T15:22:15.158Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2026-01-06T15:22:15.161Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T15:22:15.161Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T15:22:15.163Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T15:22:15.163Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T15:22:15.264Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T15:22:15.265Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T15:22:18.166Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T15:25:00.094Z] [INFO] 📊 Footprint calculated: 54 price levels | Delta: 0.10 | CVD: 0.10 | Trades: 5051
+[2026-01-06T15:26:02.097Z] [INFO] 📊 Footprint calculated: 134 price levels | Delta: -1.04 | CVD: -0.94 | Trades: 1553
+[2026-01-06T15:27:02.075Z] [INFO] 📊 Footprint calculated: 97 price levels | Delta: 0.07 | CVD: -0.87 | Trades: 1224
+[2026-01-06T15:28:02.158Z] [INFO] 📊 Footprint calculated: 48 price levels | Delta: 0.12 | CVD: -0.74 | Trades: 1341
+[2026-01-06T15:28:38.683Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2026-01-06T15:28:38.684Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T15:28:38.684Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T15:28:38.686Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"15m"}]
+[2026-01-06T15:28:38.687Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 15m
+[2026-01-06T15:28:38.788Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T15:28:38.788Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_15m/btcusdt@depth20@100ms
+[2026-01-06T15:28:41.749Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_15m, btcusdt@depth20@100ms
+[2026-01-06T15:28:42.063Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2026-01-06T15:28:42.063Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T15:28:42.063Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T15:28:42.064Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T15:28:42.065Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T15:28:42.166Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T15:28:42.167Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T15:28:45.046Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T15:30:02.055Z] [INFO] 📊 Footprint calculated: 56 price levels | Delta: 1.71 | CVD: 1.71 | Trades: 1570
+[2026-01-06T15:31:02.030Z] [INFO] 📊 Footprint calculated: 17 price levels | Delta: -0.34 | CVD: 1.37 | Trades: 1085
+[2026-01-06T15:32:02.022Z] [INFO] 📊 Footprint calculated: 1 price levels | Delta: -0.00 | CVD: 1.36 | Trades: 1335
+[2026-01-06T15:32:23.322Z] [INFO] ❌ Client disconnected
+[2026-01-06T15:32:23.323Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T15:32:23.323Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T15:32:23.400Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T15:32:23.437Z] [INFO] ❌ Client disconnected
+[2026-01-06T15:32:26.437Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T15:32:26.463Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T15:32:26.463Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T15:32:26.564Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T15:32:26.565Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T15:32:29.474Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T15:32:30.036Z] [INFO] 📊 Footprint calculated: 0 price levels | Delta: 0.00 | CVD: 0.00 | Trades: 1
+[2026-01-06T15:33:02.034Z] [INFO] 📊 Footprint calculated: 183 price levels | Delta: -0.35 | CVD: -0.35 | Trades: 1225
+[2026-01-06T15:34:02.021Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: 0.26 | CVD: -0.09 | Trades: 1008
+[2026-01-06T15:34:22.152Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2026-01-06T15:34:22.153Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T15:34:22.153Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T15:34:22.154Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2026-01-06T15:34:22.155Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2026-01-06T15:34:22.256Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T15:34:22.257Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2026-01-06T15:34:24.030Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2026-01-06T15:34:24.031Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T15:34:24.031Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T15:34:24.055Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"15m"}]
+[2026-01-06T15:34:24.055Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 15m
+[2026-01-06T15:36:17.645Z] [INFO] 🚀 WebSocket server started on /ws
+[2026-01-06T15:36:17.648Z] [INFO] HTTP server listening on http://0.0.0.0:4000
+[2026-01-06T15:36:19.992Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T15:36:20.020Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T15:36:20.020Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T15:36:20.122Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T15:36:20.123Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T15:36:23.075Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T15:36:24.026Z] [INFO] 📊 Footprint calculated: 1 price levels | Delta: 0.01 | CVD: 0.01 | Trades: 3
+[2026-01-06T15:37:02.052Z] [INFO] 📊 Footprint calculated: 148 price levels | Delta: -2.52 | CVD: -2.51 | Trades: 2219
+[2026-01-06T15:37:16.394Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2026-01-06T15:37:16.395Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T15:37:16.395Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T15:37:16.397Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"5m"}]
+[2026-01-06T15:37:16.398Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 5m
+[2026-01-06T15:37:16.499Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T15:37:16.500Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_5m/btcusdt@depth20@100ms
+[2026-01-06T15:37:17.635Z] [INFO] 📨 Received client message: [{"type":"unsubscribe"}]
+[2026-01-06T15:37:17.636Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T15:37:17.636Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T15:37:17.649Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T15:37:17.649Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T15:37:44.305Z] [INFO] 🚀 WebSocket server started on /ws
+[2026-01-06T15:37:44.308Z] [INFO] HTTP server listening on http://0.0.0.0:4000
+[2026-01-06T15:37:47.266Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T15:37:47.307Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T15:37:47.308Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T15:37:47.410Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T15:37:47.411Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T15:37:50.382Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T15:37:52.035Z] [INFO] 📊 Footprint calculated: 12 price levels | Delta: 0.93 | CVD: 0.93 | Trades: 18
+[2026-01-06T15:38:02.004Z] [INFO] 📊 Footprint calculated: 5 price levels | Delta: 0.05 | CVD: 0.98 | Trades: 406
+[2026-01-06T15:39:02.035Z] [INFO] 📊 Footprint calculated: 203 price levels | Delta: 1.91 | CVD: 2.89 | Trades: 1819
+[2026-01-06T15:40:02.062Z] [INFO] 📊 Footprint calculated: 379 price levels | Delta: -6.88 | CVD: -3.99 | Trades: 2273
+[2026-01-06T15:41:02.105Z] [INFO] 📊 Footprint calculated: 380 price levels | Delta: 0.72 | CVD: -3.27 | Trades: 1448
+[2026-01-06T15:42:02.014Z] [INFO] 📊 Footprint calculated: 263 price levels | Delta: 3.31 | CVD: 0.04 | Trades: 3318
+[2026-01-06T15:43:02.002Z] [INFO] 📊 Footprint calculated: 437 price levels | Delta: -4.82 | CVD: -4.78 | Trades: 2358
+[2026-01-06T15:44:01.983Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: 0.04 | CVD: -4.75 | Trades: 2074
+[2026-01-06T15:45:02.058Z] [INFO] 📊 Footprint calculated: 460 price levels | Delta: -12.31 | CVD: -17.06 | Trades: 2266
+[2026-01-06T15:46:01.992Z] [INFO] 📊 Footprint calculated: 109 price levels | Delta: -8.87 | CVD: -25.93 | Trades: 2279
+[2026-01-06T15:47:01.967Z] [INFO] 📊 Footprint calculated: 8 price levels | Delta: -0.38 | CVD: -26.31 | Trades: 1477
+[2026-01-06T15:48:01.969Z] [INFO] 📊 Footprint calculated: 1 price levels | Delta: 1.36 | CVD: -24.95 | Trades: 1516
+[2026-01-06T15:49:01.970Z] [INFO] 📊 Footprint calculated: 112 price levels | Delta: 1.51 | CVD: -23.44 | Trades: 1253
+[2026-01-06T15:50:01.962Z] [INFO] 📊 Footprint calculated: 130 price levels | Delta: 0.45 | CVD: -22.99 | Trades: 1235
+[2026-01-06T15:51:01.960Z] [INFO] 📊 Footprint calculated: 36 price levels | Delta: 0.14 | CVD: -22.85 | Trades: 1136
+[2026-01-06T15:52:01.941Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: -0.19 | CVD: -23.04 | Trades: 1350
+[2026-01-06T15:53:01.944Z] [INFO] 📊 Footprint calculated: 135 price levels | Delta: -12.85 | CVD: -35.88 | Trades: 1464
+[2026-01-06T15:53:31.704Z] [INFO] ❌ Client disconnected
+[2026-01-06T15:53:31.705Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T15:53:31.705Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T15:53:31.772Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T15:53:31.811Z] [INFO] ❌ Client disconnected
+[2026-01-06T15:53:34.811Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T15:53:34.848Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T15:53:34.849Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T15:53:34.950Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T15:53:34.951Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T15:53:37.568Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T15:53:37.939Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: -0.00 | CVD: -0.00 | Trades: 4
+[2026-01-06T15:54:01.930Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: -0.05 | CVD: -0.05 | Trades: 298
+[2026-01-06T15:55:01.949Z] [INFO] 📊 Footprint calculated: 91 price levels | Delta: -1.34 | CVD: -1.39 | Trades: 1121
+[2026-01-06T15:56:01.919Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: -10.62 | CVD: -12.01 | Trades: 1779
+[2026-01-06T15:57:01.915Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: 1.42 | CVD: -10.59 | Trades: 1100
+[2026-01-06T15:58:01.912Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: -0.13 | CVD: -10.72 | Trades: 1256
+[2026-01-06T15:59:01.953Z] [INFO] 📊 Footprint calculated: 217 price levels | Delta: 1.01 | CVD: -9.71 | Trades: 802
+[2026-01-06T16:00:01.916Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: -0.85 | CVD: -10.56 | Trades: 1197
+[2026-01-06T16:00:59.932Z] [INFO] 📊 Footprint calculated: 1 price levels | Delta: -0.02 | CVD: -10.58 | Trades: 1242
+[2026-01-06T16:02:01.937Z] [INFO] 📊 Footprint calculated: 429 price levels | Delta: 6.09 | CVD: -4.48 | Trades: 1998
+[2026-01-06T16:03:01.907Z] [INFO] 📊 Footprint calculated: 88 price levels | Delta: -0.26 | CVD: -4.75 | Trades: 1515
+[2026-01-06T16:03:30.880Z] [INFO] ❌ Client disconnected
+[2026-01-06T16:03:30.881Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T16:03:30.882Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T16:03:30.990Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T16:03:31.035Z] [INFO] ❌ Client disconnected
+[2026-01-06T16:03:34.065Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T16:03:34.107Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T16:03:34.107Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T16:03:34.208Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T16:03:34.208Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T16:03:37.033Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T16:04:03.958Z] [INFO] 📊 Footprint calculated: 1 price levels | Delta: 0.00 | CVD: 0.00 | Trades: 4
+[2026-01-06T16:04:07.827Z] [INFO] 📊 Footprint calculated: 190 price levels | Delta: -0.19 | CVD: -0.19 | Trades: 361
+[2026-01-06T16:05:27.396Z] [INFO] 📊 Footprint calculated: 165 price levels | Delta: 1.50 | CVD: 1.31 | Trades: 1201
+[2026-01-06T16:05:27.802Z] [WARN] Binance WebSocket closed: 1008 - Pong timeout
+[2026-01-06T16:05:27.802Z] [INFO] 🔄 Reconnecting in 3000ms... (Attempt 1/10)
+[2026-01-06T16:05:30.804Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T16:05:33.617Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T16:54:24.418Z] [INFO] ❌ Client disconnected
+[2026-01-06T16:54:24.420Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T16:54:24.420Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T16:54:24.524Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T16:54:24.563Z] [INFO] ❌ Client disconnected
+[2026-01-06T16:54:27.608Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T16:54:27.658Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T16:54:27.658Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T16:54:27.761Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T16:54:27.761Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T16:54:30.656Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T16:54:31.995Z] [INFO] 📊 Footprint calculated: 17 price levels | Delta: -0.25 | CVD: -0.25 | Trades: 32
+[2026-01-06T16:55:02.013Z] [INFO] 📊 Footprint calculated: 236 price levels | Delta: -0.62 | CVD: -0.87 | Trades: 1028
+[2026-01-06T16:56:01.982Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: 0.02 | CVD: -0.85 | Trades: 1331
+[2026-01-06T16:57:01.992Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: -0.22 | CVD: -1.07 | Trades: 1338
+[2026-01-06T16:58:02.014Z] [INFO] 📊 Footprint calculated: 66 price levels | Delta: 2.07 | CVD: 1.00 | Trades: 1127
+[2026-01-06T16:59:01.996Z] [INFO] 📊 Footprint calculated: 113 price levels | Delta: 0.39 | CVD: 1.39 | Trades: 999
+[2026-01-06T17:00:02.004Z] [INFO] 📊 Footprint calculated: 150 price levels | Delta: -1.06 | CVD: 0.33 | Trades: 941
+[2026-01-06T17:01:01.989Z] [INFO] 📊 Footprint calculated: 109 price levels | Delta: -1.70 | CVD: -1.37 | Trades: 1930
+[2026-01-06T17:02:01.991Z] [INFO] 📊 Footprint calculated: 158 price levels | Delta: 8.57 | CVD: 7.20 | Trades: 1282
+[2026-01-06T17:03:01.986Z] [INFO] 📊 Footprint calculated: 44 price levels | Delta: -0.38 | CVD: 6.82 | Trades: 1232
+[2026-01-06T17:03:10.401Z] [INFO] ❌ Client disconnected
+[2026-01-06T17:03:10.401Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T17:03:10.401Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T17:03:10.726Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T17:03:10.770Z] [INFO] ❌ Client disconnected
+[2026-01-06T17:03:14.599Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T17:03:14.792Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T17:03:14.793Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T17:03:14.896Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T17:03:14.896Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T17:06:53.184Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T17:06:54.022Z] [INFO] 📊 Footprint calculated: 18 price levels | Delta: 0.99 | CVD: 0.99 | Trades: 21
+[2026-01-06T17:07:00.015Z] [INFO] 📊 Footprint calculated: 8 price levels | Delta: -1.93 | CVD: -0.94 | Trades: 29
+[2026-01-06T17:07:40.890Z] [INFO] ❌ Client disconnected
+[2026-01-06T17:07:40.895Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T17:07:40.898Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T17:07:41.358Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T17:07:41.382Z] [INFO] ❌ Client disconnected
+[2026-01-06T17:07:45.096Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T17:07:45.188Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T17:07:45.189Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T17:07:45.291Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T17:07:45.292Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T17:09:39.444Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T17:09:39.761Z] [INFO] ❌ Client disconnected
+[2026-01-06T17:09:39.764Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T17:09:39.766Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T17:09:40.062Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T17:09:40.081Z] [INFO] ❌ Client disconnected
+[2026-01-06T17:09:43.663Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T17:09:43.751Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T17:09:43.752Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T17:09:43.854Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T17:09:43.855Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T17:09:46.858Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T17:09:48.026Z] [INFO] 📊 Footprint calculated: 32 price levels | Delta: 0.01 | CVD: 0.01 | Trades: 41
+[2026-01-06T17:10:02.018Z] [INFO] 📊 Footprint calculated: 75 price levels | Delta: 0.39 | CVD: 0.39 | Trades: 371
+[2026-01-06T17:26:45.535Z] [INFO] ❌ Client disconnected
+[2026-01-06T17:26:45.536Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T17:26:45.536Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T17:26:45.744Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T17:26:45.747Z] [INFO] ❌ Client disconnected
+[2026-01-06T17:26:49.085Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T17:26:49.140Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T17:26:49.140Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T17:26:49.243Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T17:26:49.244Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T17:26:51.901Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T17:29:58.395Z] [INFO] ❌ Client disconnected
+[2026-01-06T17:29:58.397Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T17:29:58.397Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T17:29:58.503Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T17:29:58.509Z] [INFO] ❌ Client disconnected
+[2026-01-06T17:30:02.233Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T17:30:02.279Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T17:30:02.279Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T17:30:02.381Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T17:30:02.382Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T17:30:05.188Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T17:30:06.114Z] [INFO] 📊 Footprint calculated: 29 price levels | Delta: 0.33 | CVD: 0.33 | Trades: 38
+[2026-01-06T17:34:43.202Z] [INFO] ❌ Client disconnected
+[2026-01-06T17:34:43.206Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T17:34:43.206Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T17:34:43.632Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T17:34:43.650Z] [INFO] ❌ Client disconnected
+[2026-01-06T17:34:47.159Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T17:34:47.319Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T17:34:47.319Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T17:34:47.422Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T17:34:47.423Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T17:44:35.145Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T17:44:35.966Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: -0.00 | CVD: -0.00 | Trades: 7
+[2026-01-06T17:44:37.846Z] [INFO] 📊 Footprint calculated: 28 price levels | Delta: -2.03 | CVD: -2.03 | Trades: 65
+[2026-01-06T17:44:39.079Z] [WARN] Binance WebSocket closed: 1006 - 
+[2026-01-06T17:44:39.080Z] [INFO] 🔄 Reconnecting in 3000ms... (Attempt 1/10)
+[2026-01-06T17:44:42.082Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T17:44:44.867Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T17:44:46.163Z] [INFO] 📊 Footprint calculated: 16 price levels | Delta: 0.07 | CVD: -1.97 | Trades: 188
+[2026-01-06T17:45:02.134Z] [INFO] 📊 Footprint calculated: 174 price levels | Delta: -0.37 | CVD: -2.34 | Trades: 485
+[2026-01-06T17:46:02.156Z] [INFO] 📊 Footprint calculated: 431 price levels | Delta: 3.70 | CVD: 1.37 | Trades: 2294
+[2026-01-06T17:47:02.162Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: 0.62 | CVD: 1.98 | Trades: 1783
+[2026-01-06T17:48:02.428Z] [INFO] 📊 Footprint calculated: 350 price levels | Delta: -32.51 | CVD: -30.53 | Trades: 2759
+[2026-01-06T17:49:02.157Z] [INFO] 📊 Footprint calculated: 173 price levels | Delta: -1.71 | CVD: -32.23 | Trades: 5599
+[2026-01-06T17:50:02.146Z] [INFO] 📊 Footprint calculated: 399 price levels | Delta: -1.48 | CVD: -33.72 | Trades: 2638
+[2026-01-06T17:51:02.156Z] [INFO] 📊 Footprint calculated: 139 price levels | Delta: -2.18 | CVD: -35.90 | Trades: 2600
+[2026-01-06T17:52:02.137Z] [INFO] 📊 Footprint calculated: 196 price levels | Delta: -1.79 | CVD: -37.69 | Trades: 1500
+[2026-01-06T17:53:02.126Z] [INFO] 📊 Footprint calculated: 88 price levels | Delta: -3.37 | CVD: -41.06 | Trades: 981
+[2026-01-06T17:54:02.112Z] [INFO] 📊 Footprint calculated: 44 price levels | Delta: 0.61 | CVD: -40.45 | Trades: 1740
+[2026-01-06T17:55:02.160Z] [INFO] 📊 Footprint calculated: 124 price levels | Delta: -2.83 | CVD: -43.28 | Trades: 1983
+[2026-01-06T17:56:02.125Z] [INFO] 📊 Footprint calculated: 346 price levels | Delta: 1.03 | CVD: -42.25 | Trades: 4251
+[2026-01-06T17:57:02.282Z] [INFO] 📊 Footprint calculated: 956 price levels | Delta: -14.22 | CVD: -56.47 | Trades: 4448
+[2026-01-06T17:58:02.116Z] [INFO] 📊 Footprint calculated: 85 price levels | Delta: 0.49 | CVD: -55.98 | Trades: 1912
+[2026-01-06T17:59:02.137Z] [INFO] 📊 Footprint calculated: 190 price levels | Delta: 2.26 | CVD: -53.72 | Trades: 1953
+[2026-01-06T18:00:02.161Z] [INFO] 📊 Footprint calculated: 590 price levels | Delta: 7.22 | CVD: -46.50 | Trades: 2098
+[2026-01-06T18:01:02.152Z] [INFO] 📊 Footprint calculated: 141 price levels | Delta: -0.71 | CVD: -47.21 | Trades: 7074
+[2026-01-06T18:02:02.112Z] [INFO] 📊 Footprint calculated: 202 price levels | Delta: 2.42 | CVD: -44.79 | Trades: 3682
+[2026-01-06T18:03:02.121Z] [INFO] 📊 Footprint calculated: 266 price levels | Delta: -3.56 | CVD: -48.35 | Trades: 2306
+[2026-01-06T18:04:02.107Z] [INFO] 📊 Footprint calculated: 253 price levels | Delta: 2.57 | CVD: -45.78 | Trades: 2958
+[2026-01-06T18:05:02.080Z] [INFO] 📊 Footprint calculated: 226 price levels | Delta: -5.64 | CVD: -51.42 | Trades: 2117
+[2026-01-06T18:06:02.171Z] [INFO] 📊 Footprint calculated: 552 price levels | Delta: 1.06 | CVD: -50.36 | Trades: 2689
+[2026-01-06T18:07:02.103Z] [INFO] 📊 Footprint calculated: 144 price levels | Delta: -0.71 | CVD: -51.06 | Trades: 1635
+[2026-01-06T18:08:02.100Z] [INFO] 📊 Footprint calculated: 146 price levels | Delta: 0.60 | CVD: -50.47 | Trades: 1777
+[2026-01-06T18:09:02.084Z] [INFO] 📊 Footprint calculated: 145 price levels | Delta: 0.73 | CVD: -49.74 | Trades: 2555
+[2026-01-06T18:10:02.072Z] [INFO] 📊 Footprint calculated: 119 price levels | Delta: -2.47 | CVD: -52.21 | Trades: 1139
+[2026-01-06T18:11:02.076Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: -0.53 | CVD: -52.74 | Trades: 1068
+[2026-01-06T18:12:00.049Z] [INFO] 📊 Footprint calculated: 1 price levels | Delta: -0.21 | CVD: -52.94 | Trades: 1687
+[2026-01-06T18:13:02.131Z] [INFO] 📊 Footprint calculated: 291 price levels | Delta: 0.31 | CVD: -52.63 | Trades: 1266
+[2026-01-06T18:14:02.067Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: -0.53 | CVD: -53.16 | Trades: 1362
+[2026-01-06T18:15:02.061Z] [INFO] 📊 Footprint calculated: 68 price levels | Delta: -1.62 | CVD: -54.78 | Trades: 1155
+[2026-01-06T18:16:02.073Z] [INFO] 📊 Footprint calculated: 353 price levels | Delta: -0.71 | CVD: -55.49 | Trades: 1509
+[2026-01-06T18:17:02.044Z] [INFO] 📊 Footprint calculated: 141 price levels | Delta: 0.14 | CVD: -55.35 | Trades: 1238
+[2026-01-06T18:18:02.041Z] [INFO] 📊 Footprint calculated: 167 price levels | Delta: 1.60 | CVD: -53.74 | Trades: 1166
+[2026-01-06T18:19:02.033Z] [INFO] 📊 Footprint calculated: 90 price levels | Delta: -0.10 | CVD: -53.84 | Trades: 1116
+[2026-01-06T18:19:08.932Z] [INFO] ❌ Client disconnected
+[2026-01-06T18:19:08.932Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-06T18:19:08.932Z] [INFO] Closing Binance WebSocket connection
+[2026-01-06T18:19:13.130Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T18:19:13.176Z] [INFO] ❌ Client disconnected
+[2026-01-06T18:34:42.663Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-06T18:34:42.688Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-06T18:34:42.689Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-06T18:34:42.791Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-06T18:34:42.792Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-06T18:34:45.739Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-06T18:34:46.039Z] [INFO] 📊 Footprint calculated: 0 price levels | Delta: 0.00 | CVD: 0.00 | Trades: 1
+[2026-01-07T03:37:44.732Z] [INFO] ❌ Client disconnected
+[2026-01-07T03:37:44.734Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-07T03:37:44.735Z] [INFO] Closing Binance WebSocket connection
+[2026-01-07T03:37:44.950Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-07T03:37:44.993Z] [INFO] ❌ Client disconnected
+[2026-01-07T03:37:48.727Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-07T03:37:48.859Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-07T03:37:48.860Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-07T03:37:48.962Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-07T03:37:48.963Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-07T03:37:51.912Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-07T03:51:18.007Z] [INFO] ❌ Client disconnected
+[2026-01-07T03:51:18.010Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-07T03:51:18.010Z] [INFO] Closing Binance WebSocket connection
+[2026-01-07T03:51:18.520Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-07T03:51:18.582Z] [INFO] ❌ Client disconnected
+[2026-01-07T03:51:21.877Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-07T03:51:21.928Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-07T03:51:21.929Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-07T03:51:22.031Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-07T03:51:22.032Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-07T03:51:24.957Z] [INFO] ✅ Connected to Binance streams: btcusdt@aggTrade, btcusdt@kline_1m, btcusdt@depth20@100ms
+[2026-01-07T03:51:26.078Z] [INFO] 📊 Footprint calculated: 1 price levels | Delta: 0.00 | CVD: 0.00 | Trades: 1
+[2026-01-07T03:52:02.154Z] [INFO] 📊 Footprint calculated: 1 price levels | Delta: 0.06 | CVD: 0.06 | Trades: 283
+[2026-01-07T03:53:02.105Z] [INFO] 📊 Footprint calculated: 1 price levels | Delta: 0.17 | CVD: 0.23 | Trades: 421
+[2026-01-07T03:54:02.046Z] [INFO] 📊 Footprint calculated: 2 price levels | Delta: -0.64 | CVD: -0.40 | Trades: 368
+[2026-01-07T03:54:16.372Z] [INFO] ❌ Client disconnected
+[2026-01-07T03:54:16.373Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-07T03:54:16.373Z] [INFO] Closing Binance WebSocket connection
+[2026-01-07T03:54:16.726Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-07T03:54:16.769Z] [INFO] ❌ Client disconnected
+[2026-01-07T03:54:19.874Z] [INFO] ✅ Client connected to WebSocket
+[2026-01-07T03:54:19.917Z] [INFO] 📨 Received client message: [{"type":"subscribe","symbol":"BTCUSDT","channels":["trade","kline","depth","footprint"],"interval":"1m"}]
+[2026-01-07T03:54:19.917Z] [INFO] 🔔 Subscribing to BTCUSDT | Channels: [trade, kline, depth, footprint] | Interval: 1m
+[2026-01-07T03:54:20.018Z] [INFO] 📐 Using tickSize 0.01 for BTCUSDT
+[2026-01-07T03:54:20.018Z] [INFO] Connecting to Binance combined stream: btcusdt@aggTrade/btcusdt@kline_1m/btcusdt@depth20@100ms
+[2026-01-07T03:56:43.055Z] [INFO] ❌ Client disconnected
+[2026-01-07T03:56:43.058Z] [INFO] 🔌 Unsubscribing from Binance streams
+[2026-01-07T03:56:43.058Z] [INFO] Closing Binance WebSocket connection

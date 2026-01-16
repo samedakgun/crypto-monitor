@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kripto Footprint Mock</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="left-rail">
+      <div class="brand">X</div>
+      <div class="tool-group">
+        <button class="rail-btn" title="Select">⛶</button>
+        <button class="rail-btn" title="Crosshair">✚</button>
+        <button class="rail-btn" title="Vertical">┃</button>
+        <button class="rail-btn" title="Horizontal">━</button>
+        <button class="rail-btn" title="Trend">／</button>
+        <button class="rail-btn" title="Rectangle">▭</button>
+        <button class="rail-btn" title="Measure">📏</button>
+      </div>
+      <div class="tool-group">
+        <button class="rail-btn" id="magnetToggle" title="Magnet">🧲</button>
+      </div>
+    </aside>
+
+    <main class="main-panel">
+      <header class="topbar">
+        <div class="left-actions">
+          <button class="icon-btn" title="Full screen">⛶</button>
+          <div class="divider"></div>
+          <button class="tf-btn" data-tf="1m">1m</button>
+          <button class="tf-btn" data-tf="5m">5m</button>
+          <button class="tf-btn" data-tf="15m">15m</button>
+          <button class="tf-btn active" data-tf="1h">1h</button>
+          <label class="input-group">
+            <span>Threshold</span>
+            <input type="number" id="thresholdInput" value="0" step="0.5" min="0">
+          </label>
+        </div>
+        <div class="right-actions">
+          <button class="pill success">Buyer Dominance</button>
+          <button class="pill danger">Seller Dominance</button>
+          <button class="icon-btn">⚙</button>
+          <button class="icon-btn">⟳</button>
+        </div>
+      </header>
+
+      <section class="content">
+        <div class="chart-wrap">
+          <div class="chart-stack">
+            <canvas id="priceChart"></canvas>
+            <div class="price-scale" id="priceScale"></div>
+            <div class="volume-profile" id="volumeProfile"></div>
+          </div>
+          <div class="orderbook">
+            <header class="orderbook-head">
+              <span>Buy Wall</span>
+              <span>Price</span>
+              <span>Sell Wall</span>
+            </header>
+            <div class="orderbook-rows" id="orderbookRows"></div>
+          </div>
+        </div>
+        <div class="cvd-panel">
+          <div class="cvd-head">Cumulative Volume Delta (CVD)</div>
+          <canvas id="cvdChart"></canvas>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
